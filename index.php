@@ -6,8 +6,6 @@ $query = 'SELECT *
     FROM links';
 $result = mysqli_query($connect, $query);
 
-echo mysqli_num_rows($result);
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -91,22 +89,22 @@ echo mysqli_num_rows($result);
                 <span>Adam Thomas</span>
             </h1>
             <h2 class="w3-text-red ca-font-large ca-pt-sans">
-                <span>laravel-mysql-images</span>
+                <span>mdbgo-deploy-php-mysql</span>
             </h2>
             <p class="w3-text-white ca-font-small ca-pt-sans w3-center">
-                <span><a href="https://github.com/codeadamca/laravel-mysql-images">https://github.com/codeadamca/laravel-mysql-images</a></span>
+                <span><a href="https://github.com/codeadamca/mdbgo-deploy-php-mysql">https://github.com/codeadamca/mdbgo-deploy-php-mysql</a></span>
             </p>
 
-            @foreach ($links as $link)
+            <?php while($record = mysqli_fetch_assoc($result)): ?>
 
                 <div class="w3-margin-top">
                     <p class="w3-text-white ca-font-small ca-pt-sans w3-center">
-                        <img src="data:image/jpeg;base64,{{base64_encode($link->image)}}"/>
-                        <span><a href="{{$link->url}}">{{$link->url}}</a></span>
+                        <img src="data:image/jpeg;base64,<?=base64_encode($record['image'])?>"/>
+                        <span><a href="<?=$record['url']?>"><?=$record['url']?></a></span>
                     </p>
                 </div>
 
-            @endforeach
+            <?php endwhile; ?>
 
             </div>
 
