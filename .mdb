@@ -1,0 +1,11 @@
+{
+  "projectName": "mdbgo-deploy-php-mysql",
+  "meta": {
+    "type": "backend"
+  },
+  "backend": {
+    "platform": "php7.4"
+  },
+  "hash": "08001f06",
+  "domain": "mdbgo-deploy-php-mysql.mdbgo.io"
+}

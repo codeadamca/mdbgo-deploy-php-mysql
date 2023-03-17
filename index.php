@@ -1,10 +1,12 @@
 <?php
 
-include('connect.php');
+// include('connect.php');
 
+/*
 $query = 'SELECT *
     FROM links';
 $result = mysqli_query($connect, $query);
+*/
 
 ?>
 <!DOCTYPE html>
@@ -95,7 +97,7 @@ $result = mysqli_query($connect, $query);
                 <span><a href="https://github.com/codeadamca/mdbgo-deploy-php-mysql">https://github.com/codeadamca/mdbgo-deploy-php-mysql</a></span>
             </p>
 
-            <?php while($record = mysqli_fetch_assoc($result)): ?>
+            <?php /* while($record = mysqli_fetch_assoc($result)): ?>
 
                 <div class="w3-margin-top">
                     <p class="w3-text-white ca-font-small ca-pt-sans w3-center">
@@ -104,7 +106,7 @@ $result = mysqli_query($connect, $query);
                     </p>
                 </div>
 
-            <?php endwhile; ?>
+            <?php endwhile; */ ?>
 
             </div>
 
