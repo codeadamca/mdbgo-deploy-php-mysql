@@ -9,7 +9,7 @@ This repository is available to view on [MDB GO](https://mdbgo.com/) at https://
 
 ***
 
-## Repository Requirements:
+## Repository Resources
 
 * [MDB GO](https://mdbgo.com/)
 * [MDB GO Custom Domain](https://mdbgo.com/docs/custom-domains/mdbgo-subdomains/)
