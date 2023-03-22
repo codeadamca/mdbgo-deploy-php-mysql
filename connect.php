@@ -9,9 +9,9 @@ foreach($env as $value)
 }
 
 $connect = mysqli_connect(
-  DB_HOST, 
-  DB_USERNAME, 
-  DB_PASSWORD, 
-  DB_DATABASE,
-  DB_PORT,
-  DB_SOCKET);
+  <DB_HOST>, 
+  <DB_USERNAME>, 
+  <DB_PASSWORD>, 
+  <DB_DATABASE>,
+  3306,
+  <DB_SOCKET>);
