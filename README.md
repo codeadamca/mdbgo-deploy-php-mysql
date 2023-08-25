@@ -5,7 +5,8 @@
 
 A sample PHP/MySQL webpage deployed to a MDBGO server.
 
-This repository is available to view on [MDB GO](https://mdbgo.com/) at https://mdbgo-deploy-php-mysql.mdbgo.io!
+> This repository is available to view on [MDB GO](https://mdbgo.com/) at:  
+> https://mdbgo-deploy-php-mysql.mdbgo.io!
 
 ***
 
